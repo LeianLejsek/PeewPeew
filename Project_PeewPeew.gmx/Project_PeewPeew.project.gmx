@@ -10,6 +10,7 @@
     <sprite>sprites\spr_enemy1</sprite>
     <sprite>sprites\spr_enemy1_targetable</sprite>
     <sprite>sprites\spr_enemy1_target</sprite>
+    <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\foreground_time_strike</background>
@@ -75,6 +76,10 @@
       <object>objects\obj_enemies_parent</object>
       <object>objects\obj_enemy1_parent</object>
       <object>objects\obj_enemy1</object>
+    </objects>
+    <objects name="terrain">
+      <object>objects\obj_collision_parent</object>
+      <object>objects\obj_wall</object>
     </objects>
   </objects>
   <rooms name="rooms">

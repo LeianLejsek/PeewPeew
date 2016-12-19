@@ -13,7 +13,7 @@ state = EnemyState.STATE_ATTACK;
 default_sprite = noone;
 targetable_sprite = noone;
 
-spd = 1;
+spd = 2;
 
 child_enemy_class = noone;
 
