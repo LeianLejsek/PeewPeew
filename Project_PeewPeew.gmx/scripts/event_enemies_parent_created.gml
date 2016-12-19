@@ -13,6 +13,8 @@ state = EnemyState.STATE_ATTACK;
 default_sprite = noone;
 targetable_sprite = noone;
 
+spd = 1;
+
 child_enemy_class = noone;
 
 strike_remove_order = noone;
